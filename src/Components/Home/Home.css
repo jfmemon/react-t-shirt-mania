@@ -1,0 +1,12 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;           /*column hobe 2 ta, prothom ta 3fr & porerta 1fr kore jayga nibe*/
+    margin: 10px;
+    gap: 10px;
+}
+
+.t-shirt-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    /*column hobe 3 ta, protita 1fr(ongsho) kore jayga nibe*/
+    gap: 10px;
+}
