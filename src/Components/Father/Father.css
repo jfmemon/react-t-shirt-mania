@@ -1,0 +1,15 @@
+.father {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.fathersChild {
+    display: flex;
+}
+
+.fathersChild div {
+    border: 2px solid goldenrod;
+    margin: 10px;
+    padding: 10px;
+}

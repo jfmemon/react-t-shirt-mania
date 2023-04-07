@@ -1,0 +1,9 @@
+.grandpa{
+    border: 2px solid greenyellow;
+    margin: 10px;
+    padding: 20px;
+}
+.grandChild{
+    display: flex;
+    justify-content: space-evenly;
+}

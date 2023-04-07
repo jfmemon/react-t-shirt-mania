@@ -4,6 +4,7 @@ import Main from './Layout/Main';
 import Home from './Components/Home/Home';
 import Orders from './Components/Orders/Orders';
 import About from './Components/About/About';
+import GrandPa from './Components/GrandPa/GrandPa';
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,11 @@ function App() {
         {
           path: '/orders',
           element: <Orders></Orders>
+        },
+
+        {
+          path: '/grandpa',
+          element: <GrandPa></GrandPa>
         },
         {
           path: '/about',
